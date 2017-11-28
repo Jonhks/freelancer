@@ -11,123 +11,141 @@
 </head>
 <body>
 
-    <nav>
-        <div><a href="index.html"> START BOOTSTRAP</a></div>
+  <nav>
+      <div><a href="index.html"> START BOOTSTRAP</a></div>
+      <section>
+        <a href="#portfolio"><span>PORTFOLIO</span></a>
+        <a href="#about"><span>ABOUT ME</span></a>
+        <a href="#contact"><span>CONTACT</span></a>
+      </section>
+  </nav>
+
+  <section id="seccion-1">
+      <img src='assets/images/profile.png' alt='profile img'/>
+      <h1>START BOOTSTRAP</h1>
+      <div>
+        <hr class="bg-white"/>
+        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+        <hr class="bg-white"/>
+      </div>
+      <p id="portfolio">
+        Web Developer - Graphic Artist - User Experience Designer
+      </p>
+    </section > 
+
+    <section id="seccion-2">
+      <h2 class="mayusculas">portfolio</h2>
+      <div>
+          <hr class="bg-white"/>
+          <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+          <hr class="bg-black"/>
+        </div>
+        <div class="imagen" data-url = "assets/images/portfolio/cabin.png">  
+          <img src='assets/images/portfolio/cabin.png' alt='portfolio galeria'/>
+        </div>
+        <div class="imagen" data-url = "assets/images/portfolio/cake.png">
+          <img src='assets/images/portfolio/cake.png' alt='portfolio galeria'/>
+        </div>
+        <div class="imagen" data-url = "assets/images/portfolio/circus.png">
+          <img src='assets/images/portfolio/circus.png' alt='portfolio galeria'/>
+        </div>
+        <div class="imagen"data-url = "assets/images/portfolio/game.png">
+          <img src='assets/images/portfolio/game.png' alt='portfolio galeria'/>
+        </div>
+        <div class="imagen" data-url = "assets/images/portfolio/safe.png">
+          <img src='assets/images/portfolio/safe.png' alt='portfolio galeria'/>
+        </div>
+        <div class="imagen" data-url = "assets/images/portfolio/submarine.png">
+          <img src='assets/images/portfolio/submarine.png' alt='portfolio galeria'/>
+        </div>
+    </section>
+
+    <section id="seccion-3">
+      <h2 class="mayusculas" id="about">About</h2>
+      <div>
+          <hr class="bg-white"/>
+          <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+          <hr class="bg-white"/>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#">
+          <i class="fa fa-download" aria-hidden="true" id="contact"></i>
+          Download Theme!
+        </a>
+    </section>
+
+    <section id ="seccion-4">
+      <h2>CONTACT ME</h2>
+      <div class = "estrellas">
+          <hr class="bg-black"/>
+          <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+          <hr class="bg-black"/>
+      </div>
+      <form >
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Cel Phone">
+        <textarea name="mensaje" cols="70" rows="5" placeholder="Mesage"></textarea>
+        <button title="Click para enviar">Enviar</button>
+      </form>
+    </section>
+
+      <!-- <footer>
         <section>
-          <a href="#portfolio"><span>PORTFOLIO</span></a>
-          <a href="#about"><span>ABOUT ME</span></a>
-          <a href="#contact"><span>CONTACT</span></a>
+          <h4>LOCATION</h4>
+          <p> 2215 John Daniel Drive Clark, MO 65243</p>
         </section>
-      </nav>
 
-      <section id="seccion-1">
-          <img src='assets/images/profile.png' alt='profile img'/>
-          <h1>START BOOTSTRAP</h1>
-          <div>
-            <hr class="bg-white"/>
-            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-            <hr class="bg-white"/>
-          </div>
-          <p id="portfolio">
-            Web Developer - Graphic Artist - User Experience Designer
+      </footer> -->
+    <footer>
+      <div>
+        <p class="dates">LOCATION</p> 
+        <p class="texto">3481 Melrose Place </p>
+        <p class="texto">Beverly Hills, CA 90210</p>
+      </div>
+      <div>
+        <p class="dates">AROUND-THE-WEB</p>
+        <figure>
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+        </figure>
+      </div>
+      <div class="ultimo">
+        <p class="dates">ABOUT-FREELANCER</p>
+        <p class="texto">Freelance is a free to use, open source </p>
+        <p class="texto">Bootstrap theme created by <a id="letra-verde"href="https://getbootstrap.com/" target="_blanck">Start Bootstrap</a>.</p><!-- más datos-->
+      </div>
+      <p class="copyright">Copyright © Your Website 2017</p> 
+    </footer>
+    <div id="modal" class="modal">
+      <div id="contenido-modal" class="contenido-modal">
+        <span id="close" class="close">&times</span>    
+        <h3 class="titulos">PROJECT TITLE</h3>
+        <div class = "estrellas">
+          <hr class="bg-black"/>
+          <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+          <hr class="bg-black"/>
+        </div>
+        <div class="contenedor-imagenes" id="contenedor-imagen">
+          <img src="assets/images/portfolio/cabin.png" alt="IMAGEN" class="foto-modal">
+        </div>
+        <div class="descripcion-modal">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid ipsa inventore nihil mollitia itaque praesentium quisquam laudantium aspernatur debitis voluptatem aperiam, ab animi cumque possimus ratione impedit id nesciunt.
           </p>
-        </section > 
-
-        <section id="seccion-2">
-          <h2 class="mayusculas">portfolio</h2>
-          <div>
-              <hr class="bg-white"/>
-              <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-              <hr class="bg-black"/>
-            </div>
-            <div class="imagen" data-url = "assets/images/portfolio/cabin.png">  
-              <img src='assets/images/portfolio/cabin.png' alt='portfolio galeria'/>
-            </div>
-            <div class="imagen" data-url = "assets/images/portfolio/cake.png">
-              <img src='assets/images/portfolio/cake.png' alt='portfolio galeria'/>
-            </div>
-            <div class="imagen" data-url = "assets/images/portfolio/circus.png">
-              <img src='assets/images/portfolio/circus.png' alt='portfolio galeria'/>
-            </div>
-            <div class="imagen"data-url = "assets/images/portfolio/game.png">
-              <img src='assets/images/portfolio/game.png' alt='portfolio galeria'/>
-            </div>
-            <div class="imagen" data-url = "assets/images/portfolio/safe.png">
-              <img src='assets/images/portfolio/safe.png' alt='portfolio galeria'/>
-            </div>
-            <div class="imagen" data-url = "assets/images/portfolio/submarine.png">
-              <img src='assets/images/portfolio/submarine.png' alt='portfolio galeria'/>
-            </div>
-        </section>
-
-        <section id="seccion-3">
-          <h2 class="mayusculas" id="about">About</h2>
-          <div>
-              <hr class="bg-white"/>
-              <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-              <hr class="bg-white"/>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="#">
-              <i class="fa fa-download" aria-hidden="true" id="contact"></i>
-              Download Theme!
-            </a>
-        </section>
-
-        <section id ="seccion-4">
-          <h2>CONTACT ME</h2>
-          <div>
-              <hr class="bg-black"/>
-              <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-              <hr class="bg-black"/>
-            </div>
-            <form >
-              <input type="text" placeholder="Name">
-              <input type="text" placeholder="Email">
-              <input type="text" placeholder="Cel Phone">
-              <textarea name="mensaje" cols="70" rows="5" placeholder="Mesage"></textarea>
-              <button title="Click para enviar">Enviar</button>
-            </form>
-        </section>
-
-        <!-- <footer>
-          <section>
-            <h4>LOCATION</h4>
-            <p> 2215 John Daniel Drive Clark, MO 65243</p>
-          </section>
-
-        </footer> -->
-        <footer>
-          <div>
-            <p class="dates">LOCATION</p> 
-            <p class="texto">3481 Melrose Place </p>
-            <p class="texto">Beverly Hills, CA 90210</p>
-          </div>
-          <div>
-            <p class="dates">AROUND-THE-WEB</p>
-            <figure>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-            </figure>
-          </div>
-          <div class="ultimo">
-            <p class="dates">ABOUT-FREELANCER</p>
-            <p class="texto">Freelance is a free to use, open source </p>
-            <p class="texto">Bootstrap theme created by <a id="letra-verde"href="https://getbootstrap.com/" target="_blanck">Start Bootstrap</a>.</p><!-- más datos-->
-          </div>
-          <p class="copyright">Copyright © Your Website 2017</p> 
-        </footer>
-
-
-
- 
-
- 
-
-
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid ipsa inventore nihil mollitia itaque praesentium quisquam laudantium aspernatur debitis voluptatem aperiam, ab animi cumque possimus ratione impedit id nesciunt.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid ipsa inventore nihil mollitia itaque praesentium quisquam laudantium aspernatur debitis voluptatem aperiam, ab animi cumque possimus ratione impedit id nesciunt.
+              </p>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
 </body>
 </html>

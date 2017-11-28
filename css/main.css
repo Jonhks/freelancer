@@ -2,6 +2,7 @@ body{
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 1.5em;
 }
 
 html, body{
@@ -81,7 +82,7 @@ footer section{
 #seccion-1 div hr,
 #seccion-2 div hr,
 #seccion-3 div hr,
-#seccion-4 div hr{
+#seccion-4 div hr,.estrellas hr{
   border: none;
   display: inline-block;
   height: 3px;
@@ -89,7 +90,7 @@ footer section{
 }
 
 #seccion-2 div hr,
-#seccion-4 div hr{
+#seccion-4 div hr, .estrellas hr{
   background: black;
 }
 
@@ -206,7 +207,7 @@ width: 350px;
 right: 50px;
 }
 
-.dates {/*formato de títulos*/
+.dates, .titulos {/*formato de títulos*/
 font-family: 'Montserrat', sans-serif;
 font-size: 25px;
 font-weight: bolder;
@@ -284,4 +285,56 @@ button{
 button:hover{
   opacity: .8;
   cursor: pointer;
+}
+.modal{
+  background: rgba(255, 0, 0, 0.8);
+  color: #1A252F;
+  min-height: 100vh;
+  display: block;
+  text-align: center;
+  /* z-index: 1; */
+  width: 100%;
+  top: 0;
+  /* padding: 1em; */
+  display: none;
+  position: fixed;
+  overflow-y:scroll;  
+}
+.modal .contenido-modal{
+  height: 100vh;
+  width: 80%;
+  position: relative;
+  background: white;
+  overflow-y:scroll;
+  font-size: 1.2em;
+  font-family: "Lato",serif;
+  left: 10%;
+  top: 5vh;
+
+}
+.modal h3.titulos{
+  position: relative;
+  top: 5vh;
+  font-size: 2em;
+
+}
+.modal .contenedor-imagenes{
+  width: 100%;
+  text-align: center;
+}
+.modal .contenedor-imagenes img{
+  width: 60%;
+  position: relative;
+}
+.descripcion-modal p {
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
+.close{
+  font-size: 3em;
+  color: #1a252f;
+  float: right;
+  position: relative;
+  right: 10%;
 }
