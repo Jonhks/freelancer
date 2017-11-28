@@ -1,3 +1,287 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: "Montserrat" , sans-serif;
+  font-weight: 700;
+}
+
+nav{
+  background: #2c3e50;
+  color: white;
+  padding: 20px 40px;
+  position: fixed;
+  width: 94.5%;
+  margin-top: -65px;
+}
+
+nav div a{
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+
+section a{
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+
+nav section span{
+  margin: 5px 20px;
+}
+
+nav div, 
+nav section{
+  display: inline-block;
+}
+
+nav section{
+  float: right;
+}
+
+footer{
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+}
+
+footer section{
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+
+#seccion-1{
+  background: #18bc9c;
+  color: white;
+  height: 81.5%;
+  padding: 30px 0;
+  text-align: center;
+  margin-top: 65px;
+
+}
+
+#seccion-1 h1{
+  font-size: 48px;
+}
+
+#seccion-1 div hr,
+#seccion-2 div hr,
+#seccion-3 div hr,
+#seccion-4 div hr{
+  border: none;
+  display: inline-block;
+  height: 3px;
+  width: 3%;
+}
+
+#seccion-2 div hr,
+#seccion-4 div hr{
+  background: black;
+}
+
+#seccion-2{
+  text-align: center;
+}
+
+#seccion-2  img{
+  margin: 20px;
+  width: 100%;
+}
+#seccion-2 div.imagen{
+  display: inline-block;
+  width: 25%;
+  margin: 3%;
+
+}
+
+#seccion-3 {
+  background: #18bc9c;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#seccion-3 p {
+  display: inline-block;
+  width: 35%;
+  text-align: left;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+#seccion-3 a {
+  border: 1px solid white;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  width: 14%;
+}
+
+#seccion-4 {
+  text-align: center;
+  padding: 30px 0;
+}
+
+#seccion-4 form input{
+  display: block;
+  margin: 10px auto;
+  width: 40%;
+  height: 30%;
+  border: none;
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+#seccion-4 form textarea{
+  border: none;
+  border-bottom: 2px solid lightgray;
+
+}
+
+#seccion-4 form input[type="submit"]{
+  background: #18bc9c;
+  border-radius: 5px;
+  color: white;
+  width: 10%;
+  margin: 0;
+  margin-left: 30%; 
+}
+
+.bg-white {
+  background: white;
+}
+
+.bg.black {
+  background: black;
+}
+
+.mayusculas {
+  text-transform: uppercase;
+}
+
+footer{
+width: 100%;
+height: 345px;
+background: #2c3e50;
+color: white;
+text-align: center;
+
+}
+
+footer div {
+position: absolute;
+margin-left: 40px; 
+margin-right: 40px;
+margin-top: 40px;
+}
+
+footer div:nth-child(1){
+margin-left: 100px;
+}
+
+footer div:nth-child(2) {
+left: 420px;
+}
+
+footer div:nth-child(3) {
+width: 350px;
+right: 50px;
+}
+
+.dates {/*formato de títulos*/
+font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+font-weight: bolder;
+margin-bottom: 45px;
+}
+
+.texto {
+font-family: 'Lato', sans-serif;
+font-size: 20px;
+line-height: 0;
+}
+
+footer p:nth-child(3) { 
+height: 50px;
+line-height: 1.5;
+}
+
+footer i {
+border-radius: 50% ;
+border: 2px solid white;
+margin-left: 3px;
+margin-top: 3px;
+color: white;
+}
+
+.fa-twitter, .fa-linkedin, .fa-dribbble {
+padding: 15px 15px 15px 15px;
+}
+
+.fa-google-plus {
+padding: 15px 12px 15px 12px;
+}
+
+.fa-facebook {
+padding: 15px 18px 15px 18px;
+}
+
+.copyright {
+font-family: 'Lato', sans-serif;
+position: relative;
+top: 300px;
+right: 5px;
+background: #1A252F;
+height: 70px;
+text-align: center;
+padding-top: 28px;
+}
+
+footer figure i:hover {
+background: white;
+color:#18bc9c;
+}
+
+
+#letra-verde {
+color: #18bc9c;
+}
+
+#letra-verde:hover {
+text-decoration: underline;
+}
+
+button{
+  display: block;
+  margin-left: 410px;
+  background: #18bc9c;
+  border: none;
+  color: white;
+  width: 80px;
+  height: 40px;
+  border-radius: 10%;
+  margin-top: 30px;
+}
+
+button:hover{
+  opacity: .8;
+  cursor: pointer;
+}
